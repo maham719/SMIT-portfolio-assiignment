@@ -327,7 +327,7 @@ width: 60%;
 }
 }
 
-@media  (min-width:800px) and (max-width:1200px){
+@media  (min-width:700px) and (max-width:1200px){
     .intro-container{
         height: 100vh;
         align-items: stretch;
@@ -380,7 +380,7 @@ width: 60%;
 }
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
 .intro-container{
     flex-direction: column;
     width: 100%;
