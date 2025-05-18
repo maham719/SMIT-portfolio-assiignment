@@ -309,7 +309,7 @@ width: 60%;
 /* media queries */
 @media(max-width:1290px) {
 .intro-text h2{
-    width: 80%;
+    width: 60%;
 }
 }
 
