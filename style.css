@@ -337,6 +337,7 @@ width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
   }
 .key-skills{
     align-items: flex-start;
