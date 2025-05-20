@@ -145,6 +145,7 @@ p {
 hr{
     border-color: #4d545f;
     height: 5px;
+    margin-bottom: 1rem 0;
 }
 /* details section  */
 .details-container{
@@ -509,8 +510,18 @@ h3{
 }
 .left-container i{
     font-size: 1rem;
+
 }
 .skillbar{
     height:1rem;
+}
+.left-container{
+    row-gap: 0.5rem;
+}
+.follow-me,.contact,.skills,.hobbies{
+    padding: 1rem 1rem;
+  display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
 }
 }
