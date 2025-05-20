@@ -353,12 +353,16 @@ width: 60%;
 .key-skills div>span>p{
     font-size:0.80rem ;
 }
-
+.intro-text{
+    gap:1rem;
+}
 .intro-text h1{
-    font-size: 65px;
+    font-size: 55px;
 }
 .intro-text h2{
-    width: 80%;
+    width: 65%;
+    font-size: 18px;
+    padding: 0.5rem 0.2rem;
 }
   .image-container img {
     width: 100%;
@@ -480,6 +484,15 @@ height: 100%;
 .key-skills i{
     font-size: 1rem;
 }
+.intro-text h2{
+    width:60%;
+    font-size:15px;
+    padding:0.4rem 0.1rem
+}
+}
+
+
+
 @media (max-width:400px) {
 .intro-text h1{
     font-size: 35px;
@@ -489,7 +502,7 @@ height: 100%;
     width: 75%;
     padding: 0.5rem 0.1rem;
 }   
-}
+
 .key-skills div>span>h4,
 .key-skills div>span>p{
     font-size:0.60rem ;
