@@ -298,13 +298,14 @@ width: 60%;
 .int-inner>div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 .int-inner>div>span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     text-align: center;
+    justify-content: start;
 }
 
 /* ======================responsive design======================= */
@@ -312,6 +313,9 @@ width: 60%;
 @media(max-width:1290px) {
 .intro-text h2{
     width: 60%;
+}
+.int-inner div{
+    column-gap: 1rem;
 }
 }
 
